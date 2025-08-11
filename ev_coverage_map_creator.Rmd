@@ -56,7 +56,7 @@ analyze_ev_coverage <- function(state_abbr, buffer) {
     geom_sf(data = uncovered, fill = "red", color = NA, alpha = 0.4) +
     geom_sf(data = coverage_area, fill = "green", color = NA, alpha = 0.5) +
     coord_sf(xlim = c(bbox["xmin"], bbox["xmax"]), ylim = c(bbox["ymin"], bbox["ymax"]), expand = FALSE) +
-    ggtitle(paste(state_abbr, "EV Station Coverage (", buffer, "Mile Convenience)")) +
+    ggtitle(paste0(state_abbr, " EV Station Coverage (", buffer, " Mile Convenience)")) +
     labs(subtitle = paste("Areas in green are within", buffer, "miles of an EV station"))
   
   # save to file
