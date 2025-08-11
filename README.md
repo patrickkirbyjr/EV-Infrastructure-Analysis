@@ -11,9 +11,13 @@ This project analyzes the distribution of electric vehicle (EV) charging station
 ## Data Sources
 
 EV Station Data: https://afdc.energy.gov/data_download
+
 EV Registration Data: https://afdc.energy.gov/data/10962
+
 State Population Data: https://www.census.gov/data/tables/time-series/demo/popest/2020s-state-total.html
+
 Gas Station Data: https://afdc.energy.gov/files/u/data/data_source/10333/10333_gasoline_stations_year.xlsx
+
 State Area Data: https://www.census.gov/geographies/reference-files/2010/geo/state-area.html
 
 ## Findings
