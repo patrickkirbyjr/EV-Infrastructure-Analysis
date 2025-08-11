@@ -75,7 +75,8 @@ when driving an internal combustion engine (ICE) vehicle. Unless driving in extr
 stations are readily available, have enough bays, and experience minimal downtime. Let's do a better
 job predicting how many EVs each state will need based on the current gasoline infrastructure.
 
-source: https://afdc.energy.gov/files/u/data/data_source/10333/10333_gasoline_stations_year.xlsx
+Gas Station Data: https://afdc.energy.gov/files/u/data/data_source/10333/10333_gasoline_stations_year.xlsx
+
 downside: data only through 2012 (historical trends show a decline in number of gas stations since 1996)
 
 import and clean up data
@@ -231,7 +232,7 @@ ev_gas
 ``` 
 
 import state geographic data and convert to state abbreviations
-source: https://www.census.gov/geographies/reference-files/2010/geo/state-area.html
+State Area Data: https://www.census.gov/geographies/reference-files/2010/geo/state-area.html
 
 ```{r}
 state_areas <- read.csv("data/state_areas.csv")

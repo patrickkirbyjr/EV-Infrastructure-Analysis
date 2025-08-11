@@ -16,6 +16,7 @@ Part 1: Cleaning & Exploratory Data Analysis
 ---
 
 import libraries and dataset
+EV Station Data: https://afdc.energy.gov/data_download
 
 ```{r}
 
@@ -155,10 +156,12 @@ ggplot(ev_stations_us, aes(x = longitude, y = latitude)) +
   geom_point(alpha = 0.2, color = "green", size = 0.3) +
   coord_fixed(1.3) + 
   labs(title = "US EV Charging Stations")
+
 ggsave("outputs/us_ev_charging_station_map.png")
 ```
 
 import data on number of vehicle registrations by state
+EV Registration Data: https://afdc.energy.gov/data/10962
 
 ```{r}
 ev_registrations <- read_csv("data/ev_registration_by_state.csv")
@@ -202,6 +205,8 @@ ev_combined
 ```
 
 import population information
+
+State Population Data: https://www.census.gov/data/tables/time-series/demo/popest/2020s-state-total.html
 
 ```{r}
 state_populations <- read_csv("data/state_populations.csv")
@@ -259,6 +264,7 @@ ev_stats <- ev_combined_pop # for later use
 ```
 
 export finalized data frame for modeling
+
 ```{r}
 write.csv(ev_combined_pop, "data/ev_combined_pop.csv")
 write.csv(ev_stats, "data/ev_stats.csv")
