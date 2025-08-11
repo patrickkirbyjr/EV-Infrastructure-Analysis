@@ -31,3 +31,8 @@ State Area Data: https://www.census.gov/geographies/reference-files/2010/geo/sta
 8. Weak predictors of EV infrastructure include the number of gas stations and state areas (although state areas can be included to reduce extremes).
 9. Models consider Texas, Florida, New Jersey, and Illinois to be the most underbuilt states in terms of EV charging station infrastructure.
 10. Pennsylvania, which models consider to be slightly underbuilt compared to the rest of the country, has widespread EV station coverage in the east and west but lacks coverage in the more rural mid-state areas.
+
+## Next Steps
+- Create coverage maps for underbuilt states
+- Add additional factorrs to geospatial analysis (population, EV ownership, highways, etc.)
+- Analyze and compare US states to Norway (world leader in EV infrastructure)
