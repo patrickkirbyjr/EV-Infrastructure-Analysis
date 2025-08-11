@@ -330,3 +330,4 @@ summary(model_rfr_area_perm)
 summary(model_rfr_gas_area_perm)
 ```
 rfr performed poorly, so I will stick with the linear model
+why - too low percentage of explained variance
