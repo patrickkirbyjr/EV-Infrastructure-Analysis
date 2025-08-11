@@ -94,9 +94,10 @@ ggplot() +
   geom_sf(data = coverage_area, fill = "green", color = NA, alpha = 0.3) +
   geom_sf(data = uncovered, fill = "red", color = NA, alpha = 0.4) +
     coord_sf(xlim = c(-81, -74.25), ylim = c(39.25, 42.5), expand = FALSE) +
-  ggtitle("Pennsylvania EV Station Coverage (10 Mile Convenience)")
+  ggtitle("Pennsylvania EV Station Coverage (10 Mile Convenience)") +
+  labs(subtitle = "Areas in green are within 10 miles of an EV station")
 
-ggsave("outputs/ev_station_coverage_1.png")
+ggsave("outputs/coverage_maps/ev_station_coverage_1.png")
 ```
 
 
