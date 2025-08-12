@@ -35,6 +35,9 @@ State Area Data: https://www.census.gov/geographies/reference-files/2010/geo/sta
 ## Coverage Maps
 Coverage maps were generated for the states identified by the linear model as the most underbuilt in terms of EV infrastructure. My home state of Pennsylvania was also mapped. Using a custom R function, EV stations in each state were buffered by distances of 5, 10, 15, and 20 miles to visualize the areas in close proximity to an EV charging station. These different buffer zones represented various conveniences from a few minutes away (5 miles) to slightly inconvenient (20 miles).
 
+Additional coverage maps were generated that included population densities.
+
 ## Next Steps
-- Add additional factors to geospatial analysis (population, EV ownership, highways, etc.)
+- Include major cities in coverage maps
+- Add additional factors to geospatial analysis (EV ownership, highways, etc.)
 - Analyze and compare US states to Norway (world leader in EV infrastructure)
