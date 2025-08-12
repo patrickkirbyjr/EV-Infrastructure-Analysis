@@ -1,5 +1,5 @@
 ---
-title: "Quick Coverage Map Creator"
+title: "Quick Coverage Map Creator with Population Densities"
 output: html_notebook
 ---
 goal: turn this pipeline into a function for easy analysis of multiple states
@@ -79,7 +79,12 @@ analyze_ev_coverage <- function(state_abbr, buffer) {
 test function
 
 ```{r}
-analyze_ev_coverage("NJ", 5)
+analyze_ev_coverage("TX", 10)
+analyze_ev_coverage("FL", 10)
+analyze_ev_coverage("NJ", 10)
+analyze_ev_coverage("IL", 10)
+analyze_ev_coverage("NV", 10)
+analyze_ev_coverage("PA", 10)
 ```
 
 excellent!
